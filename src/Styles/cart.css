@@ -1,0 +1,70 @@
+.cart-wrapper {
+    padding: 15px 10px;
+}
+
+.cart-title {
+   font-family:'Varela Round', sans-serif;
+   margin-bottom: 10px;
+   color:rgb(111, 96, 125); 
+}
+.book-content {
+    padding: 5px 2px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    border-top: 1px dotted rgb(111, 96, 125);
+}
+.book-content:last-child{
+    border-bottom: 1px dotted rgb(111, 96, 125);
+}
+.content-image {
+    width: 90px;
+    height: 100px;
+}
+.content-title,
+.content-price,
+.content-count,
+.clear-btn {
+    display: flex;
+    align-items: center;
+}
+.content-title{
+    width: 120px;
+    margin-right: 20px;
+}
+.content-count {
+    margin-right: 15px;
+}
+.content-price {
+    margin-right: 20px;
+}
+.clear-btn {
+    cursor: pointer;
+}
+.btn-wrapper {
+    margin-top: 15px;
+    float: right;
+}
+.check-btn,
+.cancel-btn {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.check-btn {
+    margin-right:10px;
+    background-color: rgb(28, 167, 243);
+    color: #fff;
+    outline: none;
+}
+
+.check-btn:hover{
+    background-color: rgb(16, 139, 206);
+}
+
+.cancel-btn:hover{
+    background-color: rgb(198, 193, 193);
+    color: rgb(234, 25, 25);
+}

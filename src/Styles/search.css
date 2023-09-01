@@ -1,0 +1,48 @@
+.searchBar-wrapper {
+    margin-top: 30px;
+    position:relative;
+    margin-left: 40px;
+}
+#outlined-basic{
+    width: 400px;
+    padding: 10px 15px;
+    float: right;
+}
+.search-icon {
+    position: absolute;
+    color:rgb(175, 174, 174);
+    left: 400px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.book-wrapper {
+    margin: 10px 10px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    width: 100%;
+
+}
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.price {
+    color:rgb(111, 96, 125);
+    font-weight: 550;
+}
+.add-btn{
+    width: 60px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 6px 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(144, 225, 252);
+    color: rgb(253, 251, 251);
+    font-size: 14px;
+    cursor: pointer;
+}
+

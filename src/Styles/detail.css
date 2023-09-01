@@ -1,0 +1,38 @@
+.detail-wrapper h2 {
+    margin-top: 50px;
+    text-align: center;
+    color:rgb(111, 96, 125);
+    font-family: 'Varela Round', sans-serif;
+}
+.more-detail {
+    margin: 0px 10px;
+    display: flex;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Varela Round', sans-serif;
+}
+.grid-content {
+    width: 50%;
+    color:rgb(111, 96, 125);
+}
+.detail-content {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+.detail-content:first-child {
+    margin-top: 60px;
+}
+.detail-content span:first-child {
+    font-weight: bold;
+    padding-right: 10px;
+    font-style: italic;
+}
+.book-img {
+    margin-top: -10px;
+    width: 500px;
+}
+.book-img img {
+    width: 100%;
+}

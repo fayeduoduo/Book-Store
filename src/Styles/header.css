@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Varela+Round&display=swap');
+
+.header-wrapper {
+    background-color: beige;
+    padding: 8px 15px;
+    font-family:'Varela Round', sans-serif;
+    color:rgb(111, 96, 125);
+}
+.book-icon {
+    margin-right: 10px;
+    position: absolute;
+    transform: translateX(-120%);
+}
+.title {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+title a {
+    color:rgb(111, 96, 125)
+}
+.navigation {
+    display: flex;
+    border-top: 1px solid #ccc;
+}
+.link-list {
+    padding-top: 12px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navigate-link{
+    color:rgb(111, 96, 125);
+}
+
+.sign-in {
+    padding-top: 14px;
+    padding: 14px 10px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cart{
+    margin-top: 10px;
+    color:rgb(157, 68, 241);
+    cursor: pointer;
+}
+.close-btn {
+    cursor: pointer;
+    margin: 10px;
+}

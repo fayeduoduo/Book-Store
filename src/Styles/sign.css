@@ -1,0 +1,79 @@
+.sign-wrapper {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family:'Varela Round', sans-serif;
+}
+
+.sign-title {
+    margin: 20px 0;
+    font-size: 3rem;
+    color:rgb(111, 96, 125)
+}
+.form-wrapper{
+    font-size: 18px;
+    border: 1px solid #ddd;
+    padding: 10px 40px;
+}
+.form-content {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 5px;
+    color: rgb(111, 96, 125)
+}
+.form-content label {
+    margin-bottom: 6px;
+}
+input {
+    width: 500px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-color: rgb(222, 222, 221);
+    outline: none;
+    background-color: #fff;
+}
+::-webkit-input-placeholder { 
+    color: rgb(218, 217, 217); 
+    font-size: 14px;
+    font-family:'Varela Round', sans-serif;
+} 
+:-moz-placeholder { 
+    color: rgb(218, 217, 217);
+    font-size: 4px;
+    font-family:'Varela Round', sans-serif;
+} 
+::-moz-placeholder {  
+    color: rgb(218, 217, 217);
+    font-size: 4px;
+    font-family:'Varela Round', sans-serif;
+} 
+:-ms-input-placeholder { 
+    color: rgb(218, 217, 217);
+    font-size: 4px;
+    font-family:'Varela Round', sans-serif;
+}
+
+input[type=submit] {
+    text-align: center;
+    float: right;
+    color: aliceblue;
+    background-color: rgb(124, 194, 231);
+    outline: none;
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(53, 173, 213);
+}
+.error-message {
+    color: red;
+    margin-top: 6px;
+    font-size: 12px;
+    padding-bottom: 8px;
+}
